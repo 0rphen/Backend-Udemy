@@ -1,0 +1,19 @@
+{
+   "name": "backend-server",
+   "version": "1.0.0",
+   "description": "Servidor Backend de Angular ADV",
+   "main": "index.js",
+   "scripts": {
+      "start": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "César Augusto Rojas Ardila",
+   "license": "MIT",
+   "dependencies": {
+      "express": "^4.16.3",
+      "mongoose": "^5.2.2"
+   },
+   "devDependencies": {
+      "nodemon": "^1.17.5"
+   }
+}
