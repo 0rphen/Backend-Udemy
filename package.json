@@ -10,10 +10,16 @@
    "author": "César Augusto Rojas Ardila",
    "license": "MIT",
    "dependencies": {
-      "express": "^4.16.3",
-      "mongoose": "^5.2.2"
+      "@types/express": "^4.17.2",
+      "@types/mongoose": "^5.5.28",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.7.7",
+      "mongoose-unique-validator": "^2.0.3"
    },
    "devDependencies": {
-      "nodemon": "^1.17.5"
+      "nodemon": "^1.19.4"
    }
 }
